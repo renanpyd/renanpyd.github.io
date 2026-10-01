@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renan de Lima Andrade | Principal AI & Data Engineer</title>
+    <style>
+        :root {
+            --bg-color: #fcfcfc;
+            --text-main: #111111;
+            --text-muted: #555555;
+            --border-color: #e5e5e5;
+            --accent-color: #0066cc;
+            --font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            font-family: var(--font-stack);
+            line-height: 1.6;
+            padding: 4rem 2rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        header {
+            margin-bottom: 4rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            letter-spacing: -0.03em;
+            margin-bottom: 0.5rem;
+        }
+
+        header h2 {
+            font-size: 1.25rem;
+            font-weight: 400;
+            color: var(--text-muted);
+            margin-bottom: 1.5rem;
+        }
+
+        .links-contato a {
+            color: var(--accent-color);
+            text-decoration: none;
+            margin-right: 1.5rem;
+            font-size: 0.95rem;
+            font-weight: 500;
+        }
+
+        .links-contato a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            margin-bottom: 3.5rem;
+        }
+
+        section h3 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            letter-spacing: 0.05em;
+        }
+
+        .grid-bilingue {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .grid-bilingue {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+        }
+
+        .coluna-idioma p {
+            margin-bottom: 1rem;
+            color: var(--text-main);
+            font-size: 1.05rem;
+            text-align: justify;
+        }
+
+        .pilar-card {
+            margin-bottom: 1.5rem;
+        }
+
+        .pilar-card h4 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .pilar-card p {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+        }
+
+        .projeto-item {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            background: #ffffff;
+        }
+
+        .projeto-item h4 a {
+            color: var(--text-main);
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+
+        .projeto-item h4 a:hover {
+            color: var(--accent-color);
+        }
+
+        .projeto-item p {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            margin-top: 0.5rem;
+        }
+
+        .experiencia-item {
+            margin-bottom: 2.5rem;
+        }
+
+        .exp-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 0.75rem;
+        }
+
+        .exp-header h4 {
+            font-size: 1.15rem;
+            font-weight: 600;
+        }
+
+        .exp-header span {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        .experiencia-item ul {
+            list-style-type: none;
+        }
+
+        .experiencia-item ul li {
+            font-size: 0.95rem;
+            color: var(--text-main);
+            margin-bottom: 0.4rem;
+            position: relative;
+            padding-left: 1rem;
+        }
+
+        .experiencia-item ul li::before {
+            content: "—";
+            position: absolute;
+            left: 0;
+            color: var(--text-muted);
+        }
+
+        footer {
+            margin-top: 5rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <header>
+            <h1>Renan de Lima Andrade</h1>
+            <h2>Principal AI & Data Engineer</h2>
+            <div class="links-contato">
+                <a href="https://github.com" target="_blank">GitHub</a>
+                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                <a href="mailto:renan.pyd@gmail.com">renan.pyd@gmail.com</a>
+            </div>
+        </header>
+
+        <!-- SEÇÃO: SOBRE MIM BILINGUE -->
+        <section>
+            <h3>Profile / Perfil</h3>
+            <div class="grid-bilingue">
+                <div class="coluna-idioma">
+                    <p><strong>🇧🇷 PT-BR:</strong> Engenheiro de IA e Dados de nível Principal com mais de 12 anos de trajetória liderando o desenho e a construção de plataformas de dados corporativas escaláveis e soluções inteligentes em ambientes multi-cloud (AWS, Azure, GCP).</p>
+                    <p>Minha especialidade é arquitetar sistemas de Inteligência Artificial prontos para produção, integrando agentes inteligentes autônomos, arquiteturas RAG avançadas com busca híbrida e pipelines de MLOps/LLMOps de ponta a ponta com forte controle de custos (FinOps).</p>
+                </div>
+                <div class="coluna-idioma">
+                    <p><strong>🇺🇸 EN-US:</strong> Principal AI & Data Engineer with over 12 years of experience designing and implementing scalable enterprise data platforms and advanced AI solutions across multi-cloud environments (AWS, Azure, GCP).</p>
+                    <p>Specialized in engineering production-grade Artificial Intelligence architectures, seamlessly unifying autonomous AI Agents, hybrid-search RAG pipelines, end-to-end MLOps/LLMOps workflows, and FinOps metrics.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO: CORE EXPERTISE -->
+        <section>
+            <h3>Core Expertise / Especialidade</h3>
+            <div class="grid-bilingue">
+                <div>
+                    <div class="pilar-card">
+                        <h4>AI Engineering & Production GenAI</h4>
+                        <p>Agentes Autônomos (Agentic AI), Multi-Agent Systems, RAG Avançado (Hybrid Search, Re-ranking), LangChain/LangGraph, Guardrails corporativos.</p>
+                    </div>
+                    <div class="pilar-card">
+                        <h4>MLOps, LLMOps & Cloud FinOps</h4>
+                        <p>Ciclo de vida de modelos via MLflow, automação inteligente com n8n, Model Routing, Semantic Caching e otimização do custo de tokens.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="pilar-card">
+                        <h4>Enterprise Data Platforms</h4>
+                        <p>Data Lakehouse, Data Mesh, Processamento Distribuído com Apache Spark/Databricks, Modelagem Dimensional (Kimball, SCD Tipo II) e dbt.</p>
+                    </div>
+                    <div class="pilar-card">
+                        <h4>Infrastructure & Platform Engineering</h4>
+                        <p>Provisionamento declarativo multi-cloud via Terraform IaC, isolamento com Docker e governança com políticas de menor privilégio (IAM, KMS).</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO: REPOSITÓRIOS VITRINE -->
+        <section>
+            <h3>Featured Blueprints / Projetos de Destaque</h3>
+            
+            <div class="projeto-item">
+                <h4><a href="https://github.com/enterprise-ai-agent-platform" target="_blank">enterprise-ai-agent-platform</a></h4>
+                <p><strong>EN:</strong> Production-Grade Multi-Agent Platform & LLMOps Engine. Features localized model serving isolation (vLLM/Ollama), automated evaluation validations (DeepEval), and customized semantic caching for AI FinOps token optimization.</p>
+            </div>
+
+            <div class="projeto-item">
+                <h4><a href="https://github.com/modern-data-lakehouse-blueprint" target="_blank">modern-data-lakehouse-blueprint</a></h4>
+                <p><strong>EN:</strong> End-to-end Enterprise Data Lakehouse on Multi-Cloud with PySpark Medallion pipelines, modular analytics engineering with dbt, rigorous Data Quality constraints, and complete Infrastructure as Code via Terraform.</p>
+            </div>
+
+            <div class="projeto-item">
+                <h4><a href="https://github.com/mlops-end-to-end-pipeline" target="_blank">mlops-end-to-end-pipeline</a></h4>
+                <p><strong>EN:</strong> Fully automated Machine Learning life-cycle environment for enterprise churn prediction featuring comprehensive MLflow registry, asynchronous FastAPI serving, and real-time Data Drift telemetry checks.</p>
+            </div>
+        </section>
+
+        <!-- SEÇÃO: EXPERIÊNCIA PROFISSIONAL -->
+        <section>
+            <h3>Professional Timeline / Experiência</h3>
+            
+            <div class="experiencia-item">
+                <div class="exp-header">
+                    <h4>IBM — Senior AI & Data Engineer</h4>
+                    <span>Jan 2025 — Feb 2026</span>
+                </div>
+                <ul>
